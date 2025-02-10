@@ -12,7 +12,7 @@ export class ByRegionPageComponent implements OnInit{
   public countries:Country[]=[];
   public regions: Region[] = ['Africa','Americas','Europe','Asia','Oceania']
   public selectedRegion?: Region;
-  
+
 
     constructor(private countriesService:CountriesService){}
   ngOnInit(): void {
